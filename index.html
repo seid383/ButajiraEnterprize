@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+  (function () {
+    emailjs.init("V-hpQZzMBjw7ea4uX");
+  })();
+</script>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    </div>
+    <div class="container">
+        <span class="big-circle"></span>
+        <img src="shape.png" class="square" alt="">
+        <div class="form">
+            <div class="contactInfo">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quis quam aliquid nisi iste consequuntur veniam fugit nobis aspernatur suscipit amet impedit delectus neque officia provident, quod asperiores. Vero, et?</p>
+                <div class="info">
+                    <div class="information">
+                        <img src="location.png" class="icon" alt="">
+                        <p>Butajira Enterpise location</p>
+                    </div>
+                    <div class="information">
+                        <img src="email.png" class="icon" alt="">
+                        <p>saeedhadiyu@gmail.com</p>
+                    </div>
+                    <div class="information">
+                        <img src="phone.png" class="icon" alt="">
+                        <p>+251939124387</p>
+                    </div>
+                </div>
+                <div class="socia-media">
+                    <p>Connect with us</p>
+                    <div class="social-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactForm">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form id="contact-form">
+                    <h3 class="title">Contact Us</h3>
+                    <div class="inputContainer">
+                        <input type="text" name="name" class="input" id="name" required>
+                        <label for="">Name</label>
+                        <span>Name</span>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="email" name="email" class="input" id="email" required>
+                        <label for="">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="tel" name="phone" class="input" id="phone" required>
+                        <label for="">Phone</label>
+                        <span>Phone</span>
+                    </div>
+                    <div class="inputContainer textarea">
+                       <textarea name="message" required id="message" class="input"></textarea>
+                        <label for="">Message</label>
+                        <span>Message</span>
+                    </div>
+                    <div>
+                        <input type="submit" value="send" class="btn">
+                    </div>
+                </form>
+            </div>
+        
+        </div>
+    </div>
+    <div style="margin-bottom: 10px;" class="map-container">
+        <h3>እኛን ማግኘት ከፈለጋቹ በዚህ GPS ማግኘት ትችላላቹ </h3>
+        <button type="button" class="btn" id="getLocation">
+            use my location
+        </button>
+        <input type="hidden" name="location" id="location">
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d493.7222499585809!2d38.376249182568195!3d8.124071091221712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17b341bb0a54e68f%3A0x1f6e50c7fd4e8096!2sBUTAJIRA%20CITY%20ADMINISTRATION%20OFFICE!5e0!3m2!1sen!2set!4v1769694354743!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
